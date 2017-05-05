@@ -3,10 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-istanbul": "^0.12.2",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-istanbul": "^4.1.3",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint-config-airbnb": "^14.1.0",
     "inferno": "^3.1.0",
     "inferno-component": "^3.1.0"
   },
   "devDependencies": {
+    "babel-plugin-inferno": "^3.2.0",
     "inferno-scripts": "3.0.0"
   },
   "scripts": {
