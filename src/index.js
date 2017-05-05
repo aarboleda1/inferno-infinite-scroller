@@ -1,5 +1,6 @@
 import { render } from 'inferno';
 import App from './App';
 import './index.css';
+import InfiniteScroll from './InfiniteScroll';
 
-render(<App />, document.getElementById('app'));
+render(<InfiniteScroll />, document.getElementById('app'));
